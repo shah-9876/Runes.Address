@@ -6,7 +6,7 @@ dotenv.config();
 const app = express();
 app.use(cors());
 const port = process.env.PORT || 3000;
-const apiKey = process.env.UNISAT_API_KEY;
+const apiKey = process.env.API_KEY;
 
 app.use(express.json());
 
